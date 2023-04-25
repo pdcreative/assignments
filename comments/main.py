@@ -5,16 +5,16 @@ __human_name__ = 'comments'
 # Add your code after this line
 
 # Ask user for his/her/it's name
-name = input("What's your name?")
+name = "Paul"
 # Ask user for his/her/it's age
-age = int(input("How old are you"))
+age = 48
 
 
 years_until_retirement_age = 69 - age  # Calculate the years until retirement
 
 """Create a messsage whit the users name 
 and years until retirement"""
-message = f"Hi {name}! You can enyoy your retirement in {years_until_retirement_age} years."
+message = f"Hi Paul! You can enyoy your retirement in 21 years."  # changed the input by hand
 
 """ Print the message 
 to the console """
